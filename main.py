@@ -4,7 +4,7 @@ import requests
 from discord.ext import tasks, commands
 
 # --- CONFIGURATION ---
-TOKEN = " os.getenv("DISCORD_TOKEN")" # <--- METS TON VRAI TOKEN ICI
+TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID = 1459927872209686611 
 SEARCH_QUERY = "lego star wars"   
 ALREADY_SEEN = set() 
